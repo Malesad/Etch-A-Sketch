@@ -16,6 +16,7 @@
 		h2 {
 			text-align: center;
 			margin: auto;
+			color: white;
 			
 			}
 		.center{
@@ -33,4 +34,8 @@
    		    border-radius: 2px;
    		    padding: 8px;
    		    margin-left: 15px;
+		}
+
+		body{
+			background-color: #394e70;
 		}
