@@ -1,0 +1,36 @@
+	* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		.main {
+			margin: auto;
+			display: grid;
+			border: 5px solid black;
+			padding: 10px;
+			
+			width: 500px;
+			height: 500px;
+		}
+		h2 {
+			text-align: center;
+			margin: auto;
+			
+			}
+		.center{
+			display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+		}
+		button{
+		    border: 1px solid #4285f4;
+   		    font-weight: bold;
+   		    outline: none;
+   		    background: -webkit-linear-gradient(top,#4150f4, #3c4cfc);
+   		    color: white;
+   		    border-radius: 2px;
+   		    padding: 8px;
+   		    margin-left: 15px;
+		}

@@ -2,46 +2,18 @@
 <html>
 <head>
 	<title>Etch-A-Sketch</title>
-	<style>
-		#main{
-			width: 1000px;
-			height: 1000px;
-		}
-		#main div{
-			display: inline-block;
-			vertical-align: top;
-		}
-	</style>
+
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	
 </head>
+
 <body>
-	<h1>Etch-A-Sketch</h1>
-	<div id = "main"></div>
-    <script>
-
-    	for(var i = 0; i < 20; i++){
-    		for(var j = 0; j < 20; j++){
-    			var div = document.createElement("div");
- 				
-    			div.style.width = "25px";
-    			div.style.height = "25px";
-    			div.style.background = "#dcdee2";
-                div.addEventListener("mouseover",function()
- 				{
- 					this.style.background = "black";
- 				}, false);
-    			div.style.border = "thick solid black";
-    			document.getElementById("main").appendChild(div);
-
-    		}
-    		var jump = document.createElement("br");
-    		document.getElementById("main").appendChild(jump);
-    	}
-
-    </script>
-
-   
-   
-
-
+	<h2>Etch-A-Sketch</h2>
+	<div class="center">
+	  <button onclick="newGrid()">Reset</button>
+    </div>
+	<div class = "main"></div>
+	
+	<script type="text/javascript" src="main.js"></script>
 </body>
 </html>
